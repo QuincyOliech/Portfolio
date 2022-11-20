@@ -1,6 +1,66 @@
 body {
-    background: beige;
-    color: darkblue;
-    font-family:serif;
-    padding: 100px;
+    background: black;
+    color: white;
+    font-family: 'Concert One', cursive;
+    padding: 70px;
   }
+  h1 {
+    font-size: 2em;
+    font-weight: 700;
+    margin: 0 0 1em;
+    text-align: center;
+}
+p {
+  font-size: 1.5rem;
+}
+.bio-image {
+    height: 400px;
+    margin-inline-end: 4rem;
+    display: block;
+    margin-right: auto;
+    Margin-left: auto;
+    border-radius: 50%;
+}
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1em;
+    text-align: center;
+}
+.container {
+    width: 100%
+    background-color white; 
+  }
+  
+  .skills {
+    text-align: right; 
+    padding-top: 10px; 
+    padding-bottom: 10px; 
+    color: white; 
+  }
+  
+  .HTML {width: 70%; background-color: lightblue;} 
+  .CSS {width: 50%; background-color: pink} 
+  .JS {width: 25%; background-color: #f44336;} 
+
+h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0 0 1em;
+    text-align: center;
+}
+li {
+    display:block;
+    float: inline-end;
+    font-size: 1.5rem;
+
+}
+a {
+    color: darkblue;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background: greenyellow;
+    text-align: center;
+    font-size: 1.5rem;
+}
